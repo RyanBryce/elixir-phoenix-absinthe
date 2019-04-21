@@ -1,18 +1,7 @@
 defmodule Cards do
-  @moduledoc """
-  Documentation for Cards.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Cards.hello()
-      :world
-
-  """
+  # Cards module with hello method
   def hello do
-    :world
+    # functions implicitly return last value unlike JS undefined
+    "Hi there!"
   end
 end
